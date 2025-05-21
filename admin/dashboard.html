@@ -19,7 +19,7 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="dashboard.html">Inicio</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#" onclick="getUsers()">Usuarios</a>
@@ -39,7 +39,7 @@
         <div class="row justify-content-center mt-3">
             <div class="col-6">
                 <div class="card">
-                    <div class="card-header text-center">
+                    <div class="card-header text-center" id="cardHeader">
                       <h4>Bienvenido a la app</h4>
                     </div>
                     <div class="card-body">
@@ -51,12 +51,14 @@
         </div>
         <div class="row mt-3">
             <div class="col text-center">
-                <p class="fw-light bg-primary-subtle">&copy; Todos los derechos reservado.</p>
+                <p class="fw-light bg-primary-subtle">&copy; Todos los derechos reservados.</p>
             </div>
         </div>
     </div>
-
+    <div id="showModal"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="../js/dashboard.js"></script>
+    <script src="../js/userService.js"></script>
+    <script src="../js/productService.js"></script>
 </body>
 </html>
